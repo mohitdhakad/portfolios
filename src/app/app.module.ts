@@ -9,7 +9,7 @@ import { Pro1Component } from './pro1/pro1.component';
 import { Pro2Component } from './pro2/pro2.component';
 import { Pro3Component } from './pro3/pro3.component';
 import { HomiComponent } from './homi/homi.component';
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +24,7 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    AngularFontAwesomeModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
