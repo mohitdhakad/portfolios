@@ -27,7 +27,6 @@
               "src/favicon.ico",
               "src/assets"
             ],
-
             "scripts": []
           },
           "configurations": {
@@ -121,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "portfolios"
+    }
+  },
+  "defaultProject": "portfolios",
+  "cli": {
+    "analytics": "56a87aac-91cf-4f34-b1af-50624740a981"
+  }
 }
