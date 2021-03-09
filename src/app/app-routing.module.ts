@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'pro1' , component: Pro1Component},
   { path: 'pro2' , component: Pro2Component},
   { path: 'pro3' , component: Pro3Component},
-  { path: 'homi' , component: HomiComponent },
+  { path: '' , component: HomiComponent },
 ];
 
 @NgModule({

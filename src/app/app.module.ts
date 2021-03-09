@@ -9,7 +9,11 @@ import { Pro1Component } from './pro1/pro1.component';
 import { Pro2Component } from './pro2/pro2.component';
 import { Pro3Component } from './pro3/pro3.component';
 import { HomiComponent } from './homi/homi.component';
+import { ProjectdetailComponent } from './projectdetail/projectdetail.component';
+import { FormsModule } from '@angular/forms';
 
+import { HelloComponent } from './hello/hello.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,15 +22,22 @@ import { HomiComponent } from './homi/homi.component';
     Pro1Component,
     Pro2Component,
     Pro3Component,
-    HomiComponent
+    HomiComponent,
+    ProjectdetailComponent,
+    HelloComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    FormsModule,
+    NgbModule
 
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+
