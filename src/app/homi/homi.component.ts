@@ -5,11 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './homi.component.html',
   styleUrls: ['./homi.component.scss']
 })
-export class HomiComponent implements OnInit {
+
+export class HomiComponent implements OnInit{
+
+  // title = 'portfolios';
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }
