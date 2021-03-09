@@ -27,11 +27,15 @@
               "src/favicon.ico",
               "src/assets"
             ],
+<<<<<<< HEAD
 
             "scripts": [],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ]
+=======
+            "scripts": []
+>>>>>>> e8cf91a2f91c1969e6db4c2b556dc51df59e8ad2
           },
           "configurations": {
             "production": {
@@ -124,6 +128,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "portfolios"
+    }
+  },
+  "defaultProject": "portfolios",
+  "cli": {
+    "analytics": "56a87aac-91cf-4f34-b1af-50624740a981"
+  }
 }

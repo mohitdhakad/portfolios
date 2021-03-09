@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { Pro1Component } from './pro1/pro1.component';
-import { Pro2Component } from './pro2/pro2.component';
-import { Pro3Component } from './pro3/pro3.component';
 import { HomiComponent } from './homi/homi.component';
 import { ProjectdetailComponent } from './projectdetail/projectdetail.component';
 import { FormsModule } from '@angular/forms';
@@ -20,11 +18,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NavbarComponent,
     HomeComponent,
     Pro1Component,
+<<<<<<< HEAD
     Pro2Component,
     Pro3Component,
     HomiComponent,
     ProjectdetailComponent,
     HelloComponent
+=======
+    HomiComponent
+>>>>>>> e8cf91a2f91c1969e6db4c2b556dc51df59e8ad2
   ],
   imports: [
     BrowserModule,
